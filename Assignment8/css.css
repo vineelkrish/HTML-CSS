@@ -1,0 +1,44 @@
+.p{
+    display:block;
+    width:400px;
+    background-color: #80808023;
+    border-style:solid;
+    border-color:grey;
+    border-width:1px;
+    font-size:small;
+    margin-bottom:10px;
+    height: 20px;
+    font-weight: 500;
+    border:none;
+
+}
+.d{
+    display:block;
+    width:400px;
+    background-color: #80808023;
+    border-style:solid;
+    border-color:grey;
+    border-width:1px;
+    font-size:small;
+    margin-bottom: 10px;
+    height: 20px;
+    font-weight: 500;
+    border:none;
+}
+.b1{
+    background-color: black;
+    color:white;
+    height: 30px;
+    width:150px;
+    border:none;
+    cursor:pointer;
+}
+.b2{
+    background-color: #80808023;
+    color:black;
+    height: 30px;
+    width:150px;
+    border:none;
+    cursor:pointer;
+}
+
