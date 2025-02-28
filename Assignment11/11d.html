@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Follower's Page</title>
+    <style>
+    p{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-family: Arial;
+    }
+    .grid{
+        display:grid;
+        height: 310px;
+        grid-template-columns: 200px 200px 200px;
+        column-gap: 20px;
+    }
+    .profile{
+        box-shadow: 1px 2px 4px grey;
+        vertical-align: top;
+        border-radius: 4px;
+    }
+    .min-grid{
+        display:grid;
+        grid-template-columns: 50px 120px;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+    .cover-photo{
+        width:200px;
+        height:200px;
+        margin-bottom: 7px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .pic{
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: center;  
+        margin-left: 5px; 
+    }
+    .name{
+        margin-left: 10px;
+        font-weight: bold;
+        padding-bottom: 3px;
+    }
+    button{
+        margin-left: 5px;
+        background-color: rgb(65, 65, 249);
+        color: white;
+        border:none;
+        padding: 5px 9px 5px 9px;
+        border-radius: 5px;
+    }
+    .fr{
+        color:grey
+    }
+    
+    </style>
+    
+</head>
+<body>
+    <div class="grid">
+    <div class="profile">
+     <img class="cover-photo" src="cat.jpg">
+     <p class="name">Oliver</p>
+     <div class="min-grid">
+        <div class="profile-pic">
+            <img class="pic" src="dog2.jpg">
+        </div>
+        <div class="description">
+             <p class="fr">2 mutual friends</p>
+        </div>
+     </div>
+     <button>Add Friend</button>
+    </div>
+    <div class="profile">
+        <img class="cover-photo" src="cat2.jpg">
+        <p class="name">Mimi</p>
+        <div class="min-grid">
+           <div class="profile-pic">
+               <img class="pic" src="dog2.jpg">
+           </div>
+           <div class="description">
+                <p class="fr">3 mutual friends</p>
+           </div>
+        </div>
+        <button>Add Friend</button>
+       </div>
+       <div class="profile">
+        <img class="cover-photo" src="dog.jpg">
+        <p class="name">Rex</p>
+        <div class="min-grid">
+           <div class="profile-pic">
+               <img class="pic" src="dog2.jpg">
+           </div>
+           <div class="description">
+                <p class="fr">4 mutual friends</p>
+           </div>
+        </div>
+        <button>Add Friend</button>
+       </div>
+          
+    </div>
+    
+</body>
+</html>
